@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,800;1,100&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  font-family: "Raleway", sans-serif;
+}
+
+.navbar-nav,
+.navbar-brand {
+  font-weight: 600;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.jumbotron {
+  height: 95vh;
+  background: url("https://images.pexels.com/photos/8960464/pexels-photo-8960464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.btn-outline-white {
+  background-color: transparent;
+  color: white;
+  border: 1px white solid;
+}
+
+.about {
+  text-align: justify;
+}
+
+.left-side,
+.right-side {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-side {
+  flex-direction: column;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.nav-link {
+  text-align: center;
+}
+
+.services {
+  text-align: justify;
+}
+
+.fas {
+  font-size: 55px;
+}
+
+.service > * {
+  padding: 10px;
+}
+
+.card {
+  padding-top: 34px;
+}
+.email,
+.phone,
+.sosmed {
+  padding-bottom: 10px;
+  text-align: right;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.fab,
+.far,
+.fa {
+  font-size: 20px;
+}
+
+.contact-title,
+.about-title {
+  padding-top: 50px;
+}
+
+.footer {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+}
